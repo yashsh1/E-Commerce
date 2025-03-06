@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-COMMERCE</title>
+    <title>About us</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <link
@@ -22,7 +22,10 @@
               <li><a href="Blog.html">blog</a></li>
               <li><a class="active" href="About.html">about</a></li>
               <li><a href="Contact.html">contact</a></li>
-              <li id="la-bag"><a href="Cart.html"><i class="far fa-shopping-bag"></i></a></li>
+              <li id="cart-icon">
+                <a href="Cart.html"><i class="far fa-shopping-bag"></i></a>
+                <div class="cartAmount">0</div>
+            </li>
               <a href="#" id="close"><i class="far fa-times"></i></a>
         </li>
     </ul>
@@ -37,7 +40,25 @@
         <h2>#About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, pariatur!</p>
       </section>
+
+      <section id="about-head" class="section-p1">
+        <img src="img/about/a6.jpg" alt="">
+        <div>
+          <h2>Who we are?</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt esse accusantium quis, maiores, mollitia distinctio, fugit nostrum dolorem cum officiis assumenda consequuntur possimus nobis placeat? Delectus, dolor magnam libero facere, reprehenderit iusto et voluptas odit aliquam quo voluptatum ullam rem saepe rerum harum tempore aspernatur. Inventore aperiam pariatur nulla dolore amet.</p>
+          <abbr title="">Create Stunning image with as such or as little control as your like thanks to a choice of basic and creative models</abbr>
+          <br><br>
+          <marquee bgcolor="#ccc" loop="-1" scrollamount="10" width="100%" behavior="" direction="left-right">Create Stunning image with as such or as little control as your like thanks to a choice of basic and creative models</marquee>
+        </div>
+      </section>
       
+      <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a> </h1>
+        <div class="video">
+          <video autoplay muted loop src="img/about/1.mp4"></video>
+        </div>
+      </section>
+
       <section id="feature" class="section-p1">
         <div class="fe-box">
           <img src="img/features/f1.png" alt="" />
@@ -65,22 +86,16 @@
         </div>
       </section>
 
-      <!-- <section id="pagination" class="section-p1">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
-      </section> -->
-
-    <!-- <section id="newsletter" class="section-p1 section-m1">
+      <section id="newsletter" class="section-p1 section-m1">
         <div id="newstext">
-            <h4>sing up for newsletter</h4>
-            <p>get e-mail update about out leatest shop and <span>special offers</span></p>
+          <h4>sing up for newsletter</h4>
+          <p>get e-mail update about out leatest shop and <span>special offers</span></p>
         </div>
         <div id="form">
-            <input type="email" name="" id="" placeholder="your e-mail address">
-            <button class="normal">Sign Up</button>
+          <input type="email" name="" id="" placeholder="your e-mail address">
+          <button class="normal">Sign Up</button>
         </div>
-    </section> -->
+      </section>
 
     <footer  class="section-p1">
         <div class="col">
@@ -134,7 +149,7 @@
             <p>© 1996-2025, veora, Inc. or its affiliates </p>
         </div>
     </footer>
-    <!-- <marquee behavior="" direction="left-right">tasvdajh ahhdkabdas kgbaskjdbaskjdbx</marquee> -->
+  
 
     </main>
   </body>
